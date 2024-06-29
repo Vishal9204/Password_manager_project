@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1b2a38;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.brand-highlight {
+    color: #5bd87d;
+}
+
+.brand-normal {
+    color: #ffffff;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-github img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-github a {
+    display: flex;
+    align-items: center;
+}
